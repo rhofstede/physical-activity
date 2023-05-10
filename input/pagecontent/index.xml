@@ -19,12 +19,12 @@
     disability-free lifespan.  Currently in the US, one in four adults are physically inactive, with increasing prevalence across some geographies and in certain race/ethnicities.
     (For more information and research citations highlighting the importance of physical activity and intervening to improve it, see <a href="background.html">the background page</a> of this IG.)
   </p>
-	<p>
-	  This implementation guide standardizes interoperability expectations for systems involved in measuring, reporting, and intervening to improve patient physical
-	  activity levels.  It defines interface expectations that are relevant for patient-facing applications, patient physical activity measurement devices, clinical electronic health records,
-	  payers, quality measurement systems, and applications used by health and fitness professionals, personal trainers, and community-based fitness centers.
-	  By improving standardization and interoperability around measuring physical activity levels and data sharing needed to help patients improve their physical
-	  activity levels, we can make a significant impact on overall patient health at both the individual and the population level.
+  <p>
+    This implementation guide standardizes interoperability expectations for systems involved in measuring, reporting, and intervening to improve patient physical
+    activity levels.  It defines interface expectations that are relevant for patient-facing applications, patient physical activity measurement devices, clinical electronic health records,
+    payers, quality measurement systems, and applications used by health and fitness professionals, personal trainers, and community-based fitness centers.
+    By improving standardization and interoperability around measuring physical activity levels and data sharing needed to help patients improve their physical
+    activity levels, we can make a significant impact on overall patient health at both the individual and the population level.
   </p>
   <p>
     This version of the specification defines standards for the following:
@@ -67,7 +67,7 @@
   </p>
   <ol>
     <li><a href="conformance.html">Conformance Expectations</a> sets general expectations around conformance to the IG.</li>
-    <li><a href="measures.html">Physical Activity Measures</a> defines a <a href="measures.html#base">profiles</a> for the standardized capture of a patient's 
+    <li><a href="measures.html">Physical Activity Measures</a> defines a <a href="measures.html#base">profile</a> for the standardized capture of a patient's 
       physical activity level.  <!--It also defines an optional FHIR <a href="Questionnaire-questionnaire-evs.html">Questionnaire</a> that can be used by questionnaire-based systems to 
       capture that measure.-->  In addition, it defines profiles to capture <a href="measures.html#support">supplemental observations</a>
       assertions around physical activity levels, such as daily physical activity log entries, heart rate measurements, and step counts.  The specification also covers how to link
@@ -157,9 +157,9 @@
     An extensive list of FHIR implementation guides published by HL7 and other related organizations can be found <a href="http://fhir.org/guides/registry">here</a>.
   </p>
   
-	<a name="ip"> </a>
-	<h3>Intellectual Property Considerations</h3>
-	<p>
+  <a name="ip"> </a>
+  <h3>Intellectual Property Considerations</h3>
+  <p>
     This implementation guide and the underlying FHIR specification are licensed as public domain under the <a href="{{site.data.fhir.path}}license.html#license">FHIR license</a>.  The
     license page also describes rules for the use of the FHIR name and logo.
   </p>

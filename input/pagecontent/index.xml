@@ -7,7 +7,7 @@
       Welcome to our first ballot!  This specification is the result of hundreds of hours of work by a <a href="credits.html">wide variety of people</a> who are passionate
       about enabling and supporting patients in improving their levels of physical activity.  We are happy to receive feedback from the broader community about everything
       we've written here, but particularly about any concerns with respect to implementability or how we can make it easier to get these features into production systems.
-      If you're interested in joining with us, check out our <a href="https://confluence.hl7.org/display/PC/Physical+Activity">project page</a>, or come join the 
+      If you're interested in joining us, check out our <a href="https://confluence.hl7.org/display/PC/Physical+Activity">project page</a>, or come join the 
       <a href="https://chat.fhir.org/#narrow/stream/327137-Physical-Activity">discussion</a> on http://chat.fhir.org.
     </p>
   </blockquote>
@@ -15,8 +15,8 @@
   <h3>Scope and purpose</h3>
   <p>
     Being physically active is one of the most important lifestyle behaviors people can engage in to maintain physical and mental health and well-being.
-    Regular physical activity is both health-promoting and important for chronic disease and infectious disease treatment and prevention.  It provides numerous benefits that contribute to a 
-    disability-free lifespan.  Currently in the US, one in four adults are physically inactive, with increasing prevalence across some geographies and in certain race/ethnicities.
+    Regular physical activity is both health-promoting and important for chronic and infectious disease treatment and prevention.  It provides numerous benefits that contribute to a 
+    disability-free lifespan.  Currently in the US, one in four adults are physically inactive, with increasing prevalence across some geographies and in certain races/ethnicities.
     (For more information and research citations highlighting the importance of physical activity and intervening to improve it, see <a href="background.html">the background page</a> of this IG.)
   </p>
   <p>
@@ -34,11 +34,11 @@
     <li>How to create and share care plans and goals related to improving a patient's level of physical activity; </li>
     <li>How to order interventions that can assist a patient in improving their levels of physical activity;</li>
     <li>How to capture and share information that supports that primary measure - for patient, clinical, insurance or other use;</li>
-    <li>How to engage with the patient and their care givers to provide support and/or gather information as a patient works towards their physical activity goals; and</li>
+    <li>How to engage with the patient and their caregivers to provide support and/or gather information as a patient works towards their physical activity goals; and</li>
     <li>What are the reporting mechanisms to close the referral loop on an interim basis or when referrals are complete?</li>
   </ul>
   <p>
-    The IG also provides additional guidance to support all the above, including registries, consent, status monitoring, etc.
+    The IG also provides additional guidance to support all of the above, including registries, consent, status monitoring, etc.
   </p>
   <p>
     The following diagram shows the participants and functions covered by this IG and how they fit into the overall cycle of care:
@@ -133,7 +133,7 @@
     <li><a href="http://hl7.org/fhir/us/davinci-deqm">Data Exchange for Quality Measures (DEQM)</a> - Allows sharing patient data with payers to support quality measures
       and capitated care.  Physical activity measures may be reported to payers for patients covered under such measures.</li>
     <li><a href="http://hl7.org/fhir/smart-app-launch">SMART App Launch</a> - allows launching third party applications in the context of another system, including allowing
-      the application to controlled access to patient information.  Rather than developing Questionnaire form filler capabilities within their own system, Care Providers and
+      the application to control access to patient information.  Rather than developing Questionnaire form filler capabilities within their own system, Care Providers and
       Service Provider systems may opt to use a 3rd party SMART App to handle form rendering, data capture, form population and data extraction.</li>
     <li><a href="http://hl7.org/fhir/us/pacio-fs">PACIO Functional Status</a> - defines standards for sharing information about a patient's physical capabilities, which may
       influence what types of physical activity interventions are appropriate.</li>

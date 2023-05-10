@@ -71,7 +71,7 @@
   <p>
     While the first of these is theoretically redundant with the two EVS measures, this calculated minutes/week measure is the one that is
     actually compared against national guidelines to determine whether a patient has adequate physical activity or not.  As such, having
-    it explicitly captured and stored allows for easier searching, trending and diagnosis.
+    it explicitly captured and stored allows for easier searching, trending and diagnosis. It is a derived measure.
   </p>
   <p>
     The second measure allows evaluation of the patient against guidelines for muscle-strengthening activity.  

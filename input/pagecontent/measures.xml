@@ -30,7 +30,7 @@
 	  While fine-grained and detailed records (e.g. exactly which type of exercise was performed, which muscle groups were activated, how
 	  many repetitions were performed, how many intervals were done, etc.) are important for certain types of therapy and for research
 	  purposes, they are too complex and onerous for wide-spread use and are not easily evaluated to assess whether "this patient is
-	  sufficiently active to maintain good health".
+	  sufficiently active to maintain good health". This is not to suggest that fine-grained measures should not be captured and shared, merely that they are currently outside the scope of interoperability intended to be fostered by this implementation guide.
 
 	</p>
 	<p>

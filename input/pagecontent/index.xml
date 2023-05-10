@@ -94,7 +94,7 @@
       business case for implementing this IG.</li>
     <li><a href="scenarios.html">Scenarios</a> describes examples of real-world scenarios where this IG would come into play and how the interactions between the software
       systems supported by this IG would impact patients, clinicians and others using those systems.</li>
-    <li><a href="design.html">Design Considerations</a> lists a variety architectural and other considerations that have gone into the creation of this implementation guide and
+    <li><a href="design.html">Design Considerations</a> lists a variety of architectural and other considerations that have gone into the creation of this implementation guide and
       explains why the functionality it provides has been implemented as it has.  It also lists a few areas where implementers have been left some flexibility and provides
       guidance about how to best decide amongst implementation alternatives based on implementation context.</li>
     <li><a href="artifacts.html">Artifacts</a> - This provides a summary of the technical artifacts defined in this implementation guide.  It also provides a list of the
